@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulation Test Civique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <header class="header">
+        <h1>Simulation Test Civique</h1>
+        <p class="subtitle">Carte de Résident</p>
+    </header>
+
+    <div class="top-bar">
+        <div id="timer" class="timer">
+            <span class="timer-icon">⏱</span>
+            <span id="timer-text">45:00</span>
+        </div>
+        <div class="progress-info">
+            <span id="question-counter">Question 1 / 40</span>
+        </div>
+        <button id="restart-btn" class="btn btn-secondary">Recommencer</button>
+    </div>
+
+    <!-- Result banner (hidden until quiz ends) -->
+    <div id="result-banner" class="result-banner" hidden></div>
+
+    <!-- Single question view -->
+    <div id="quiz-container" class="quiz-container"></div>
+
+    <!-- Navigation buttons -->
+    <div id="quiz-nav" class="quiz-nav">
+        <button id="prev-btn" class="btn btn-nav" disabled>← Précédent</button>
+        <button id="next-btn" class="btn btn-nav">Suivant →</button>
+        <button id="submit-btn" class="btn btn-primary" hidden>Valider le test</button>
+    </div>
+
+    <!-- Correction view (hidden until quiz ends) -->
+    <div id="correction-container" class="correction-container" hidden></div>
+</div>
+
+<!-- Embedded data first -->
+<script src="questions.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
