@@ -1584,6 +1584,7 @@ const QUESTIONS = [
     "correct": 1
   },
   {
+    "theme": "Histoire géographie et culture",
     "question": "Parmi ces pays, lequel attire le plus de visiteurs chaque année ?",
     "answers": [
       "L’Espagne",
@@ -1594,6 +1595,7 @@ const QUESTIONS = [
     "correct": 2
   },
   {
+    "theme": "Histoire géographie et culture",
     "question": "Où habite la majorité des Français ?",
     "answers": [
       "À l’étranger",
@@ -1604,6 +1606,7 @@ const QUESTIONS = [
     "correct": 2
   },
   {
+    "theme": "Histoire géographie et culture",
     "question": "Quelle région est la plus peuplée ?",
     "answers": [
       "Bretagne",
@@ -1614,6 +1617,7 @@ const QUESTIONS = [
     "correct": 3
   },
   {
+    "theme": "Histoire géographie et culture",
     "question": "Quelle ville française fait partie des 10 plus grandes métropoles du pays ?",
     "answers": [
       "Bayonne",
@@ -1624,6 +1628,7 @@ const QUESTIONS = [
     "correct": 2
   },
   {
+    "theme": "Histoire géographie et culture",
     "question": "Lequel de ces départements de France est le plus touristique ?",
     "answers": [
       "Paris",
@@ -1634,6 +1639,7 @@ const QUESTIONS = [
     "correct": 0
   },
   {
+    "theme": "Histoire géographie et culture",
     "question": "Quand peut-on visiter gratuitement des lieux culturels en France ?",
     "answers": [
       "Uniquement le 14 juillet",
@@ -1644,6 +1650,7 @@ const QUESTIONS = [
     "correct": 1
   },
   {
+    "theme": "Histoire géographie et culture",
     "question": "Combien de personnes parlent français dans le monde ?",
     "answers": [
       "Environ 320 millions",
@@ -1654,6 +1661,7 @@ const QUESTIONS = [
     "correct": 0
   },
   {
+    "theme": "Histoire géographie et culture",
     "question": "Qui était Marguerite Yourcenar ?",
     "answers": [
       "Une écrivaine française",
@@ -1664,6 +1672,7 @@ const QUESTIONS = [
     "correct": 0
   },
   {
+    "theme": "Histoire géographie et culture",
     "question": "Quel peintre est français ?",
     "answers": [
       "Claude Monet",
@@ -1674,6 +1683,7 @@ const QUESTIONS = [
     "correct": 0
   },
   {
+    "theme": "Histoire géographie et culture",
     "question": "Quel musée est situé à Paris ?",
     "answers": [
       "Le Prado",
@@ -1684,6 +1694,7 @@ const QUESTIONS = [
     "correct": 2
   },
   {
+    "theme": "Histoire géographie et culture",
     "question": "Qui était Auguste Rodin ?",
     "answers": [
       "Un président",
@@ -1694,6 +1705,7 @@ const QUESTIONS = [
     "correct": 1
   },
   {
+    "theme": "Histoire géographie et culture",
     "question": "Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?",
     "answers": [
       "1re",
@@ -1704,6 +1716,7 @@ const QUESTIONS = [
     "correct": 1
   },
   {
+    "theme": "Histoire géographie et culture",
     "question": "Quelle cathédrale célèbre a été en partie détruite par un incendie en 2019 ?",
     "answers": [
       "Sacré-Cœur",
@@ -1714,6 +1727,7 @@ const QUESTIONS = [
     "correct": 3
   },
   {
+    "theme": "Histoire géographie et culture",
     "question": "Qui était une écrivaine française célèbre ?",
     "answers": [
       "Claude Monet",
@@ -1724,6 +1738,7 @@ const QUESTIONS = [
     "correct": 1
   },
   {
+    "theme": "Histoire géographie et culture",
     "question": "Qui était un célèbre musicien français ?",
     "answers": [
       "Léonard de Vinci",
@@ -1734,6 +1749,7 @@ const QUESTIONS = [
     "correct": 1
   },
   {
+    "theme": "Histoire géographie et culture",
     "question": "Qui était Auguste Renoir ?",
     "answers": [
       "Un peintre impressionniste",
@@ -1744,6 +1760,7 @@ const QUESTIONS = [
     "correct": 0
   },
   {
+    "theme": "Histoire géographie et culture",
     "question": "Quelle fête est française ?",
     "answers": [
       "La Saint-Patrick",
@@ -1753,7 +1770,7 @@ const QUESTIONS = [
     ],
     "correct": 2
   },
-    {
+  {
     "theme": "Vivre dans la société française",
     "question": "Quel mariage est reconnu par l'État ?",
     "answers": [
