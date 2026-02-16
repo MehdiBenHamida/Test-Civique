@@ -1,6 +1,270 @@
 const QUESTIONS = [
   {
     "theme": "Principes et valeurs de la République",
+    "question": "À quoi correspond la date du 14 juillet ?",
+    "answers": [
+      "À la fin de la Première Guerre mondiale",
+      "À la fête nationale française",
+      "À la fête du travail",
+      "À la fête de la musique"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Quel est le nom de l'hymne national ?",
+    "answers": [
+      "La Marseillaise",
+      "Le Chant des Partisans",
+      "La Carmagnole",
+      "La Madelon"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Quelle est la date de la fête nationale française ?",
+    "answers": [
+      "14 juillet",
+      "1er janvier",
+      "25 décembre",
+      "1er mai"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Quelle est la devise de la République française ?",
+    "answers": [
+      "Liberté, égalité, fraternité",
+      "Paix, travail, justice",
+      "Force, honneur, fraternité",
+      "Unité, solidarité, liberté"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Quelle est la langue officielle de la République française ?",
+    "answers": [
+      "Le français",
+      "L’anglais",
+      "L’espagnol",
+      "L’allemand"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Quelle liberté permet à chacun d’exprimer ses idées ?",
+    "answers": [
+      "La liberté d’expression",
+      "La liberté de circulation",
+      "La liberté religieuse",
+      "La liberté de réunion"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Quelles sont les couleurs du drapeau français ?",
+    "answers": [
+      "Bleu, blanc, rouge",
+      "Vert, blanc, rouge",
+      "Bleu, jaune, rouge",
+      "Noir, blanc, rouge"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Qu'est-ce qui est traditionnellement organisé sur les Champs Élysées le 14 juillet pour célébrer la fête nationale ?",
+    "answers": [
+      "Un défilé militaire",
+      "Une foire commerciale",
+      "Une course cycliste",
+      "Un concert de musique classique"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Qui est Marianne ?",
+    "answers": [
+      "Un symbole de la République française",
+      "Une chanteuse célèbre",
+      "Un personnage de roman",
+      "Une ville française"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Lequel de ces symboles représente officiellement la République française ?",
+    "answers": [
+      "Le drapeau tricolore",
+      "La Tour Eiffel",
+      "Le coq gaulois seulement en dessin",
+      "La statue de la Liberté"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Où peut-on voir la devise de la République ?",
+    "answers": [
+      "Sur les bâtiments publics",
+      "Sur les billets de cinéma",
+      "Dans les livres de recettes",
+      "Sur les panneaux publicitaires"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Quels sont des symboles officiels de la République française ?",
+    "answers": [
+      "Le drapeau, la Marseillaise, Marianne",
+      "Le Mont Blanc et la Tour Eiffel",
+      "Le coq uniquement",
+      "La devise et le Louvre"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Qu’est-ce que l’égalité ?",
+    "answers": [
+      "Le fait que tous les citoyens aient les mêmes droits",
+      "Le fait que chacun peut faire ce qu’il veut",
+      "Le fait que certains ont plus de droits",
+      "Le fait de choisir ses lois"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Que signifie la liberté ?",
+    "answers": [
+      "Pouvoir agir sans nuire aux autres et selon la loi",
+      "Pouvoir faire tout ce que l’on veut",
+      "Être libre de payer ou non ses impôts",
+      "Pouvoir ignorer les règles de circulation"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Que signifie le mot \"fraternité\" dans la devise française ?",
+    "answers": [
+      "Solidarité et entraide entre citoyens",
+      "Famille seulement",
+      "Amitié avec les voisins",
+      "Relations commerciales"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Quel animal est un symbole de la France ?",
+    "answers": [
+      "Le coq",
+      "Le lion",
+      "L’aigle",
+      "Le cheval"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Quel est l’un des rôles des associations ?",
+    "answers": [
+      "Proposer des activités et défendre des causes",
+      "Créer des lois",
+      "Gérer les impôts",
+      "Remplacer l’État"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Quel est l’un des symboles de la République française ?",
+    "answers": [
+      "La Statue de la Liberté",
+      "Le Mont Saint-Michel",
+      "Le drapeau tricolore",
+      "La Tour de Pise"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Le principe d’égalité signifie que :",
+    "answers": [
+      "Tous les citoyens sont égaux devant la loi",
+      "On peut discriminer selon l’âge",
+      "Les riches ont plus de libertés",
+      "Certains citoyens ont plus de droits que d’autres"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "\"Liberté, égalité, fraternité\", c’est :",
+    "answers": [
+      "Une chanson populaire",
+      "La devise de la République française",
+      "Un slogan politique récent",
+      "Une fête traditionnelle"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "A-t-on le droit d'insulter publiquement quelqu’un parce qu’il est différent (handicap, apparence physique, sexe…) ?",
+    "answers": [
+      "Non, mais seulement à l’école",
+      "Oui, si c’est un membre de la famille",
+      "Oui, si c’est sur les réseaux sociaux",
+      "Non, c’est interdit par la loi"
+    ],
+    "correct": 3
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Certains métiers peuvent-ils être réservés aux hommes ?",
+    "answers": [
+      "Oui, pour les emplois de direction",
+      "Oui, seulement dans le secteur militaire",
+      "Non, tous les métiers sont ouverts à tous",
+      "Oui, certains métiers physiques"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "De quand date la Constitution de la Ve République ?",
+    "answers": [
+      "1789",
+      "1848",
+      "1958",
+      "1871"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Principes et valeurs de la République",
+    "question": "Le régime de la France est :",
+    "answers": [
+      "Monarchique",
+      "Républicain",
+      "Fédéral",
+      "Communiste"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Principes et valeurs de la République",
     "question": "Parmi les propositions suivantes, laquelle constitue une participation citoyenne ?",
     "answers": [
       "Voter aux élections",
@@ -309,6 +573,94 @@ const QUESTIONS = [
   },
   {
     "theme": "Système institutionnel et politique",
+    "question": "Qui nomme le Premier ministre ?",
+    "answers": [
+      "Le Parlement",
+      "Le Président de la République",
+      "Le Conseil constitutionnel",
+      "Les citoyens"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Le Parlement est composé :",
+    "answers": [
+      "Du Sénat et de l'Assemblée nationale",
+      "Du Président et du Gouvernement",
+      "Des maires et des préfets",
+      "Du Conseil constitutionnel"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Qu'est-ce que le pouvoir exécutif ? Le pouvoir :",
+    "answers": [
+      "Qui applique les lois",
+      "Qui vote les lois",
+      "Qui juge les litiges",
+      "Qui organise les élections"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Les dirigeants sont élus par les citoyens dans :",
+    "answers": [
+      "Les élections",
+      "Les nominations royales",
+      "Le Conseil constitutionnel",
+      "Les assemblées municipales uniquement"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "A-t-on le droit de ne pas respecter une loi ?",
+    "answers": [
+      "Non, la loi doit être respectée",
+      "Oui, si elle ne plaît pas",
+      "Oui, seulement à l'école",
+      "Non, sauf pour les ministres"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Qui doit respecter la loi ?",
+    "answers": [
+      "Tous les citoyens et les autorités",
+      "Seulement les citoyens",
+      "Seulement le Président",
+      "Seulement les députés"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Quel est le rôle de l'autorité judiciaire ?",
+    "answers": [
+      "Rendre la justice et appliquer les lois",
+      "Faire les lois",
+      "Nommer le Premier ministre",
+      "Gérer le budget de l'État"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Quel pouvoir détient un juge ? Le pouvoir :",
+    "answers": [
+      "De juger et trancher les litiges",
+      "De voter les lois",
+      "D’exécuter les décisions du Président",
+      "De diriger la police nationale"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
     "question": "Quelle est la durée du mandat du conseil municipal et du maire ?",
     "answers": [
       "3 ans",
@@ -405,6 +757,270 @@ const QUESTIONS = [
       "Juge les infractions"
     ],
     "correct": 1
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Pour combien de temps est élu le président de la République française ?",
+    "answers": [
+      "7 ans",
+      "5 ans",
+      "4 ans",
+      "6 ans"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Pour combien de temps sont élus les députés ?",
+    "answers": [
+      "6 ans",
+      "5 ans",
+      "4 ans",
+      "3 ans"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Pour combien de temps sont élus les sénateurs ?",
+    "answers": [
+      "6 ans",
+      "5 ans",
+      "4 ans",
+      "7 ans"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Qui possède le pouvoir exécutif ?",
+    "answers": [
+      "Le Parlement",
+      "Le Président et le Gouvernement",
+      "Le Conseil constitutionnel",
+      "Les députés"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Quelle condition est nécessaire pour voter aux élections ?",
+    "answers": [
+      "Avoir 18 ans et être inscrit sur les listes électorales",
+      "Être marié",
+      "Payer ses impôts",
+      "Avoir un diplôme"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Que signifie « suffrage universel » ?",
+    "answers": [
+      "Tous les citoyens peuvent voter",
+      "Seules les personnes riches votent",
+      "Seules les personnes instruites votent",
+      "Seules certaines régions votent"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Concernant les partis politiques, quelle proposition est correcte ?",
+    "answers": [
+      "Ils présentent des candidats aux élections et défendent des idées",
+      "Ils font appliquer les lois",
+      "Ils nomment le président",
+      "Ils jugent les citoyens"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Quel est le rôle des députés ?",
+    "answers": [
+      "Voter les lois et contrôler le Gouvernement",
+      "Nommer les juges",
+      "Diriger les communes",
+      "Gérer le budget européen"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+    "answers": [
+      "Législatif, exécutif, judiciaire",
+      "Président, Premier ministre, Parlement",
+      "Députés, sénateurs, maires",
+      "Ministres, préfets, juges"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Qui possède le pouvoir législatif ?",
+    "answers": [
+      "Le Parlement",
+      "Le Président",
+      "Le Gouvernement",
+      "Le Conseil constitutionnel"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Qui sanctionne l'auteur d'un vol ?",
+    "answers": [
+      "Le juge",
+      "Le maire",
+      "Le Président",
+      "Le Premier ministre"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Qui élit les députés ?",
+    "answers": [
+      "Les citoyens inscrits sur les listes électorales",
+      "Le Sénat",
+      "Le Président",
+      "Le Conseil constitutionnel"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Qui vote les lois ?",
+    "answers": [
+      "Le Parlement",
+      "Le Président",
+      "Le Premier ministre",
+      "Les citoyens"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Qui réside au palais de l'Élysée ?",
+    "answers": [
+      "Le Président de la République",
+      "Le Premier ministre",
+      "Le Président de l’Assemblée",
+      "Le maire de Paris"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Combien y a-t-il de départements en France ?",
+    "answers": [
+      "101",
+      "95",
+      "120",
+      "80"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Qui représente l'État dans un département ?",
+    "answers": [
+      "Le préfet",
+      "Le maire",
+      "Le Président du département",
+      "Le député"
+    ],
+    "correct": 0
+  },
+    {
+    "theme": "Système institutionnel et politique",
+    "question": "Qui dirige la commune ?",
+    "answers": [
+      "Le maire",
+      "Le président de la République",
+      "Le préfet",
+      "Le député"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Est-ce que le président de la République a tous les pouvoirs ?",
+    "answers": [
+      "Non, les pouvoirs sont séparés",
+      "Oui, il peut tout faire",
+      "Oui, sauf pour les lois",
+      "Non, il ne peut pas nommer le Premier ministre"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Qui est le préfet ?",
+    "answers": [
+      "Le représentant de l’État dans le département",
+      "Le président du département",
+      "Le maire",
+      "Le député"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Quel est le rôle du Parlement ?",
+    "answers": [
+      "Voter les lois et contrôler le Gouvernement",
+      "Nommer les ministres",
+      "Rendre la justice",
+      "Gérer les finances locales"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Quel est le régime politique de la France aujourd'hui ?",
+    "answers": [
+      "République",
+      "Monarchie",
+      "Empire",
+      "Fédéralisme"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Combien d'États font partie de l'Union européenne au 1er janvier 2025 ?",
+    "answers": [
+      "27",
+      "25",
+      "30",
+      "28"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Quel État n'est pas membre de l'Union européenne ?",
+    "answers": [
+      "Norvège",
+      "France",
+      "Allemagne",
+      "Italie"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Quelle condition est nécessaire pour voter aux élections européennes ?",
+    "answers": [
+      "Être citoyen européen et inscrit sur les listes électorales",
+      "Avoir 16 ans",
+      "Résider uniquement en France",
+      "Avoir un emploi"
+    ],
+    "correct": 0
   },
   {
     "theme": "Système institutionnel et politique",
@@ -515,6 +1131,94 @@ const QUESTIONS = [
       "Le représentant de l’État dans un département"
     ],
     "correct": 3
+  },
+    {
+    "theme": "Système institutionnel et politique",
+    "question": "L'autorité judiciaire est exercée par :",
+    "answers": [
+      "Les avocats",
+      "Les juges et magistrats",
+      "Le Parlement",
+      "Le Président de la République"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
+    "answers": [
+      "Il peut être poursuivi et sanctionné",
+      "Il est automatiquement réélu",
+      "Il peut continuer sans problème",
+      "Il est nommé Président"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Qui est élu lors des élections législatives ?",
+    "answers": [
+      "Les députés",
+      "Les sénateurs",
+      "Le Président de la République",
+      "Les maires"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Combien de députés composent l’Assemblée nationale ?",
+    "answers": [
+      "577",
+      "350",
+      "200",
+      "705"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Quand sont élus les sénateurs ?",
+    "answers": [
+      "Tous les trois ans pour moitié",
+      "Tous les cinq ans",
+      "Tous les dix ans",
+      "Tous les deux ans"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Qui est élu lors des élections municipales ?",
+    "answers": [
+      "Les conseillers municipaux",
+      "Le Président de la République",
+      "Les députés européens",
+      "Les préfets"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "Qui est élu lors des élections présidentielles ?",
+    "answers": [
+      "Le Président de la République",
+      "Le Premier ministre",
+      "Les sénateurs",
+      "Les députés"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Système institutionnel et politique",
+    "question": "À partir de quel âge a-t-on le droit de voter ?",
+    "answers": [
+      "18 ans",
+      "16 ans",
+      "21 ans",
+      "20 ans"
+    ],
+    "correct": 0
   },
   {
     "theme": "Système institutionnel et politique",
@@ -1395,6 +2099,523 @@ const QUESTIONS = [
       "L’Union européenne"
     ],
     "correct": 1
+  },
+   {
+    "theme": "Histoire géographie et culture",
+    "question": "En quelle année a débuté la Révolution française ?",
+    "answers": [
+      "1776",
+      "1789",
+      "1792",
+      "1804"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui était Napoléon Ier ?",
+    "answers": [
+      "Roi de France",
+      "Empereur de France",
+      "Président de la République",
+      "Général anglais"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Lequel de ces personnages historiques est français ?",
+    "answers": [
+      "George Washington",
+      "Winston Churchill",
+      "Napoléon Bonaparte",
+      "Joan of Arc"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Dans quelle République est-on aujourd'hui ?",
+    "answers": [
+      "Quatrième République",
+      "Cinquième République",
+      "Troisième République",
+      "Deuxième République"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qu'est-ce que la Shoah ?",
+    "answers": [
+      "Une révolution en Russie",
+      "Une loi française sur l’éducation",
+      "Le génocide des Juifs pendant la Seconde Guerre mondiale",
+      "Une guerre civile française"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Quel pays ou région du monde a été colonisé par la France ?",
+    "answers": [
+      "Japon",
+      "Norvège",
+      "Algérie",
+      "Canada anglophone"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui a rendu l’école gratuite, laïque et obligatoire ?",
+    "answers": [
+      "Louis XIV",
+      "Jules Ferry",
+      "Charles de Gaulle",
+      "Napoléon Ier"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Quand a eu lieu la Seconde Guerre mondiale ?",
+    "answers": [
+      "1914-1918",
+      "1789-1799",
+      "1939-1945",
+      "1804-1815"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Quand a eu lieu la Première Guerre mondiale ?",
+    "answers": [
+      "1914-1918",
+      "1939-1945",
+      "1804-1815",
+      "1789-1799"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "En quelle année a été créée la Communauté Économique Européenne (CEE) ?",
+    "answers": [
+      "1957",
+      "1958",
+      "1945",
+      "1963"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Le 11 novembre est un jour férié. À quoi correspond cette date ?",
+    "answers": [
+      "Armistice de la Première Guerre mondiale",
+      "Fête nationale",
+      "Fin de la Seconde Guerre mondiale",
+      "Commémoration de Napoléon"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui a été le premier Président élu sous la Ve République ?",
+    "answers": [
+      "Charles de Gaulle",
+      "François Mitterrand",
+      "Jules Ferry",
+      "Napoléon Ier"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "En quelle année l'esclavage a-t-il été aboli définitivement en France ?",
+    "answers": [
+      "1848",
+      "1789",
+      "1794",
+      "1815"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Depuis quelle année l'école publique est-elle gratuite ?",
+    "answers": [
+      "1881",
+      "1792",
+      "1905",
+      "1870"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Combien y a-t-il eu de républiques en France ?",
+    "answers": [
+      "Cinq",
+      "Quatre",
+      "Trois",
+      "Six"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui était le roi de France au moment de la Révolution française ?",
+    "answers": [
+      "Louis XVI",
+      "Louis XIV",
+      "Napoléon Ier",
+      "Charles X"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui a fondé la Ve République ?",
+    "answers": [
+      "François Mitterrand",
+      "Charles de Gaulle",
+      "Jules Ferry",
+      "Louis XVI"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Que célèbre-t-on le 14 juillet ?",
+    "answers": [
+      "La prise de la Bastille",
+      "La fin de la Seconde Guerre mondiale",
+      "L’armistice de 1918",
+      "La naissance de Napoléon Ier"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Quelle guerre a eu lieu entre 1914 et 1918 ?",
+    "answers": [
+      "La Première Guerre mondiale",
+      "La Guerre de Cent Ans",
+      "La Révolution française",
+      "La Seconde Guerre mondiale"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Pourquoi l’année 1958 est importante pour la France ?",
+    "answers": [
+      "Création de la Ve République",
+      "Abolition de l’esclavage",
+      "Début de la Révolution française",
+      "Fin de la Seconde Guerre mondiale"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Quel fleuve coule en France ?",
+    "answers": [
+      "La Loire",
+      "Le Rhin",
+      "Le Danube",
+      "Le Rhône uniquement"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Quelle ville est française ?",
+    "answers": [
+      "Lyon",
+      "Berlin",
+      "Madrid",
+      "Rome"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Quel océan borde la côte ouest française ?",
+    "answers": [
+      "L’océan Atlantique",
+      "La mer Méditerranée",
+      "La Manche",
+      "La mer du Nord"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qu'est-ce que Paris ?",
+    "answers": [
+      "La capitale de la France",
+      "Une île française",
+      "Un fleuve",
+      "Un département d’outre-mer"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Quelle est la capitale de la France ?",
+    "answers": [
+      "Lyon",
+      "Marseille",
+      "Paris",
+      "Bordeaux"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Sur quel continent se situe la France métropolitaine ?",
+    "answers": [
+      "Europe",
+      "Asie",
+      "Afrique",
+      "Amérique"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Quelle île est un département d'outre-mer français ?",
+    "answers": [
+      "Réunion",
+      "Madagascar",
+      "Sicile",
+      "Corse"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Combien y a-t-il de régions en France métropolitaine ?",
+    "answers": [
+      "13",
+      "15",
+      "12",
+      "18"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Quelle ville est un grand port maritime ?",
+    "answers": [
+      "Marseille",
+      "Lille",
+      "Strasbourg",
+      "Toulouse"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Quelle est la mer au sud de la France métropolitaine ?",
+    "answers": [
+      "La mer Méditerranée",
+      "La Manche",
+      "La mer du Nord",
+      "L’océan Atlantique"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Quelle ville est située au bord de la mer Méditerranée ?",
+    "answers": [
+      "Nice",
+      "Paris",
+      "Strasbourg",
+      "Lyon"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Où se situe la Corse ?",
+    "answers": [
+      "Dans la mer Méditerranée",
+      "Dans l’océan Atlantique",
+      "En Italie",
+      "Au large du Portugal"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Quelle chaîne de montagnes est située entre la France et l'Italie ?",
+    "answers": [
+      "Les Alpes",
+      "Les Pyrénées",
+      "Le Massif central",
+      "Les Vosges"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui était Molière ?",
+    "answers": [
+      "Un dramaturge et comédien français",
+      "Un peintre",
+      "Un romancier",
+      "Un philosophe"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui était Charles Baudelaire ?",
+    "answers": [
+      "Poète français",
+      "Peintre français",
+      "Écrivain anglais",
+      "Musicien"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui était George Sand ?",
+    "answers": [
+      "Écrivaine française",
+      "Actrice française",
+      "Peintre française",
+      "Poétesse anglaise"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui était Simone de Beauvoir ?",
+    "answers": [
+      "Philosophe et écrivaine française",
+      "Chanteuse",
+      "Peintre",
+      "Actrice"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui était Albert Camus ?",
+    "answers": [
+      "Écrivain et philosophe français",
+      "Poète anglais",
+      "Peintre français",
+      "Musicien"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui était Paul Cézanne ?",
+    "answers": [
+      "Peintre français",
+      "Écrivain français",
+      "Poète",
+      "Musicien"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui était Marc Chagall ?",
+    "answers": [
+      "Peintre et artiste français",
+      "Écrivain français",
+      "Musicien",
+      "Poète"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui était Joséphine Baker ?",
+    "answers": [
+      "Chanteuse et danseuse française",
+      "Peintre française",
+      "Écrivaine française",
+      "Philosophe française"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui était une chanteuse française célèbre ?",
+    "answers": [
+      "Édith Piaf",
+      "George Sand",
+      "Simone de Beauvoir",
+      "Albert Camus"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qu'est-ce que le Louvre ?",
+    "answers": [
+      "Un musée à Paris",
+      "Un château en Normandie",
+      "Une bibliothèque à Lyon",
+      "Un opéra à Marseille"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui était Jean de La Fontaine ?",
+    "answers": [
+      "Fabuliste et écrivain français",
+      "Poète anglais",
+      "Peintre français",
+      "Musicien"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Quel écrivain est français ?",
+    "answers": [
+      "Victor Hugo",
+      "William Shakespeare",
+      "Mark Twain",
+      "Ernest Hemingway"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Dans quelle ville se trouve la tour Eiffel ?",
+    "answers": [
+      "Paris",
+      "Lyon",
+      "Marseille",
+      "Nice"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Quand célèbre-t-on Noël ?",
+    "answers": [
+      "25 décembre",
+      "1er janvier",
+      "14 juillet",
+      "31 octobre"
+    ],
+    "correct": 0
   },
   {
     "theme": "Histoire géographie et culture",
