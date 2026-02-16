@@ -1684,6 +1684,17 @@ const QUESTIONS = [
   },
   {
     "theme": "Histoire géographie et culture",
+    "question": "Quel peintre est français ?",
+    "answers": [
+      "Salvador Dalí",
+      "Claude Monet",
+      "Frida Kahlo",
+      "Edvard Munch"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Histoire géographie et culture",
     "question": "Quel musée est situé à Paris ?",
     "answers": [
       "Le Prado",
@@ -1739,6 +1750,39 @@ const QUESTIONS = [
   },
   {
     "theme": "Histoire géographie et culture",
+    "question": "Qui était une écrivaine française célèbre ?",
+    "answers": [
+      "Jane Austen",
+      "Simone de Beauvoir",
+      "Virginia Woolf",
+      "Emily Dickinson"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui était une écrivaine française célèbre ?",
+    "answers": [
+      "Marguerite Duras",
+      "Isabel Allende",
+      "Toni Morrison",
+      "Agatha Christie"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui était une écrivaine française célèbre ?",
+    "answers": [
+      "Colette",
+      "Mary Shelley",
+      "Louisa May Alcott",
+      "Astrid Lindgren"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
     "question": "Qui était un célèbre musicien français ?",
     "answers": [
       "Léonard de Vinci",
@@ -1747,6 +1791,28 @@ const QUESTIONS = [
       "William Shakespeare"
     ],
     "correct": 1
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui était un célèbre musicien français ?",
+    "answers": [
+      "Antonio Vivaldi",
+      "Jean-Jacques Goldman",
+      "Johann Sebastian Bach",
+      "Elton John"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Qui était un célèbre musicien français ?",
+    "answers": [
+      "Serge Gainsbourg",
+      "Bob Dylan",
+      "Freddie Mercury",
+      "Bruce Springsteen"
+    ],
+    "correct": 0
   },
   {
     "theme": "Histoire géographie et culture",
@@ -1771,6 +1837,28 @@ const QUESTIONS = [
     "correct": 2
   },
   {
+    "theme": "Histoire géographie et culture",
+    "question": "Quelle fête est française ?",
+    "answers": [
+      "La Fête de la Musique",
+      "Le Carnaval de Rio",
+      "Oktoberfest",
+      "Mardi Gras américain"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Histoire géographie et culture",
+    "question": "Quelle fête est française ?",
+    "answers": [
+      "La Fête des Lumières à Lyon",
+      "Thanksgiving",
+      "St. Patrick’s Day",
+      "Hanukkah"
+    ],
+    "correct": 0
+  },
+  {
     "theme": "Vivre dans la société française",
     "question": "Quel mariage est reconnu par l'État ?",
     "answers": [
@@ -1791,6 +1879,17 @@ const QUESTIONS = [
       "À la caisse d’allocations familiales"
     ],
     "correct": 0
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Auprès de quelle institution les parents peuvent-ils inscrire leur enfant à l'école publique ?",
+    "answers": [
+      "Au centre des impôts",
+      "À la mairie de leur lieu de résidence",
+      "À la préfecture de région",
+      "Au tribunal judiciaire"
+    ],
+    "correct": 1
   },
   {
     "theme": "Vivre dans la société française",
@@ -1838,6 +1937,17 @@ const QUESTIONS = [
   },
   {
     "theme": "Vivre dans la société française",
+    "question": "Quelle est l'une des conditions pour passer l'examen du permis de conduire ?",
+    "answers": [
+      "Avoir réussi le code de la route",
+      "Être âgé de 30 ans minimum",
+      "Avoir un emploi stable",
+      "Avoir suivi un stage de premiers secours"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Vivre dans la société française",
     "question": "Un bail locatif est valide s'il est :",
     "answers": [
       "Oral uniquement",
@@ -1846,6 +1956,17 @@ const QUESTIONS = [
       "Validé par un voisin"
     ],
     "correct": 2
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Un bail locatif est valide s'il est :",
+    "answers": [
+      "Rédigé par écrit et signé par les deux parties",
+      "Verbal uniquement entre le locataire et le propriétaire",
+      "Signé uniquement par le locataire",
+      "Approuvé par le syndic de copropriété"
+    ],
+    "correct": 0
   },
   {
     "theme": "Vivre dans la société française",
@@ -1865,7 +1986,7 @@ const QUESTIONS = [
       "15",
       "18",
       "17",
-      "112 uniquement depuis l'étranger"
+      "112"
     ],
     "correct": 2
   },
@@ -1882,12 +2003,34 @@ const QUESTIONS = [
   },
   {
     "theme": "Vivre dans la société française",
+    "question": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+    "answers": [
+      "Tout le monde peut accéder aux soins en France, selon les règles de l'Assurance maladie",
+      "Seules les personnes payant des impôts peuvent accéder aux soins",
+      "Les soins sont réservés aux adultes",
+      "L'accès aux soins est limité aux résidents depuis plus de 5 ans"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Vivre dans la société française",
     "question": "À qui est accessible la contraception ?",
     "answers": [
       "Uniquement aux femmes mariées",
       "À toute personne qui en fait la demande",
       "Seulement aux hommes",
       "Uniquement avec l’accord des parents"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "À qui est accessible la contraception ?",
+    "answers": [
+      "Seulement aux femmes mariées",
+      "À toute personne qui en fait la demande",
+      "Uniquement aux adolescents avec autorisation parentale",
+      "Seulement aux couples mariés"
     ],
     "correct": 1
   },
@@ -1959,6 +2102,17 @@ const QUESTIONS = [
   },
   {
     "theme": "Vivre dans la société française",
+    "question": "Lorsqu'un employeur veut qu'un salarié travaille plus longtemps que la durée prévue dans le contrat de travail :",
+    "answers": [
+      "Il n’a pas besoin d’en informer le salarié",
+      "Il peut le faire sans rémunération supplémentaire",
+      "Il doit respecter la loi et l’accord du salarié selon les règles en vigueur",
+      "Il peut l’imposer sans condition"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Vivre dans la société française",
     "question": "Quelle est la mission de France Travail ?",
     "answers": [
       "Verser les retraites",
@@ -1981,6 +2135,17 @@ const QUESTIONS = [
   },
   {
     "theme": "Vivre dans la société française",
+    "question": "Dans une entreprise, le droit syndical permet :",
+    "answers": [
+      "De fixer les salaires sans négociation",
+      "D’interdire les discussions",
+      "De représenter et défendre les intérêts des salariés",
+      "De remplacer la direction"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Vivre dans la société française",
     "question": "Dans une entreprise, le droit de grève autorise :",
     "answers": [
       "À cesser le travail pour défendre des revendications professionnelles",
@@ -1990,7 +2155,18 @@ const QUESTIONS = [
     ],
     "correct": 0
   },
-      {
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Dans une entreprise, le droit de grève autorise :",
+    "answers": [
+      "À quitter définitivement son emploi",
+      "À cesser le travail pour défendre des revendications professionnelles",
+      "À refuser toute discussion avec l’employeur",
+      "À ne jamais respecter le contrat de travail"
+    ],
+    "correct": 1
+  },
+  {
     "theme": "Vivre dans la société française",
     "question": "Quelles sont les conditions pour toucher les allocations chômage ?",
     "answers": [
@@ -1998,6 +2174,17 @@ const QUESTIONS = [
       "Être inscrit comme demandeur d’emploi et avoir travaillé un minimum de temps",
       "Être étudiant",
       "Avoir plus de 60 ans uniquement"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Quelles sont les conditions pour toucher les allocations chômage ?",
+    "answers": [
+      "Avoir plus de 60 ans uniquement",
+      "Être inscrit comme demandeur d’emploi et avoir travaillé un minimum de temps",
+      "Être étudiant",
+      "N’avoir jamais travaillé"
     ],
     "correct": 1
   },
@@ -2050,9 +2237,9 @@ const QUESTIONS = [
     "question": "À quel âge commence l'instruction obligatoire des enfants ?",
     "answers": [
       "3 ans",
-      "6 ans",
+      "4 ans",
       "5 ans",
-      "4 ans"
+      "6 ans"
     ],
     "correct": 0
   },
@@ -2088,6 +2275,17 @@ const QUESTIONS = [
       "Faire du shopping"
     ],
     "correct": 1
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Quel motif d'absence est accepté par l'école ?",
+    "answers": [
+      "Rendez-vous médical justifié",
+      "Vacances familiales non prévues",
+      "Sortie au cinéma sans autorisation",
+      "Fête d’anniversaire entre amis"
+    ],
+    "correct": 0
   },
   {
     "theme": "Vivre dans la société française",
