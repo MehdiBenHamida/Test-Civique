@@ -23,6 +23,17 @@ const QUESTIONS = [
   },
   {
     "theme": "Principes et valeurs de la République",
+    "question": "Que garantit la liberté d’expression ?",
+    "answers": [
+      "Le droit de dire ce que l’on pense dans le respect des lois",
+      "Le droit de tout faire sans limite",
+      "L’obligation de suivre l’opinion du gouvernement",
+      "L’interdiction de critiquer les institutions"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Principes et valeurs de la République",
     "question": "À quoi sert un titre de séjour ?",
     "answers": [
       "À voter aux élections nationales",
