@@ -2127,7 +2127,7 @@ const QUESTIONS = [
     "question": "Lequel de ces personnages historiques est français ?",
     "answers": [
       "Winston Churchill",
-      "Joan of Arc",
+      "Franklin D. Roosevelt",
       "Napoléon Bonaparte",
       "George Washington"
     ],
