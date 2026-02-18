@@ -1541,6 +1541,336 @@ const QUESTIONS = [
   },
   {
     "theme": "Droits et devoirs",
+    "question": "Comment s’appelle la Constitution actuelle de la France ?",
+    "answers": [
+      "La Constitution de la Cinquième République",
+      "La Constitution de la Quatrième République",
+      "La Charte de 1814",
+      "Le Code civil"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Comment s'appelle le texte qui énonce les droits et devoirs des personnes résidant en France ?",
+    "answers": [
+      "La Déclaration des droits de l’homme et du citoyen",
+      "Le Code de la route",
+      "Le règlement intérieur des écoles",
+      "Le Code du commerce"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Concernant les droits individuels, quelle proposition est correcte ?",
+    "answers": [
+      "Ils s’appliquent uniquement aux citoyens français",
+      "Ils s’appliquent à toute personne en France",
+      "Ils sont réservés aux majeurs",
+      "Ils dépendent du revenu"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "De quelle année date la Déclaration des droits de l’homme et du citoyen ?",
+    "answers": [
+      "1789",
+      "1792",
+      "1848",
+      "1958"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Lequel de ces droits est un droit fondamental ?",
+    "answers": [
+      "Le droit aux vacances",
+      "La liberté d’expression",
+      "Le droit de conduire",
+      "Le droit à une aide financière"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Parmi ces textes, lequel garantit les droits et libertés en France ?",
+    "answers": [
+      "La Constitution",
+      "Le Code de la route",
+      "Le règlement municipal",
+      "Le contrat de travail"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Qu’est-ce que la liberté d’expression ?",
+    "answers": [
+      "Le droit de tout dire sans limite",
+      "Le droit d’exprimer ses opinions dans le respect de la loi",
+      "Le droit d’insulter librement",
+      "Le droit de ne pas respecter les autres"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Quel droit permet à une personne de se défendre devant la justice ?",
+    "answers": [
+      "Le droit au logement",
+      "Le droit de grève",
+      "Le droit à un procès équitable",
+      "Le droit de vote"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Quel est le texte fondateur établissant en France les droits et les devoirs de chaque citoyen ?",
+    "answers": [
+      "La Déclaration des droits de l’homme et du citoyen",
+      "Le Code civil",
+      "La Constitution européenne",
+      "Le Code pénal"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Quel texte a été adopté pendant la Révolution française ?",
+    "answers": [
+      "La Constitution de 1958",
+      "La Déclaration des droits de l’homme et du citoyen",
+      "Le Code du travail",
+      "La Charte de l’environnement"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Quelle liberté permet à une personne de ne pas avoir de religion ?",
+    "answers": [
+      "La liberté d’association",
+      "La liberté de conscience",
+      "La liberté de circulation",
+      "La liberté de la presse"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Une femme peut avorter :",
+    "answers": [
+      "Jamais",
+      "Seulement avec l’accord du mari",
+      "Dans le cadre prévu par la loi",
+      "Uniquement à l’étranger"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Est-il toujours possible de divorcer ?",
+    "answers": [
+      "Non, c’est interdit",
+      "Oui, selon les conditions prévues par la loi",
+      "Seulement après 10 ans de mariage",
+      "Uniquement avec l’accord des parents"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "La peine de mort est :",
+    "answers": [
+      "Encore appliquée",
+      "Suspendue temporairement",
+      "Interdite en France",
+      "Réservée aux crimes graves"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Concernant les limites aux libertés individuelles, quelle proposition est correcte ?",
+    "answers": [
+      "Il n’existe aucune limite",
+      "Elles peuvent être limitées pour protéger l’ordre public et les droits d’autrui",
+      "Elles dépendent uniquement du maire",
+      "Elles concernent seulement les étrangers"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "En France, est-ce légal d'être marié à plusieurs personnes en même temps ?",
+    "answers": [
+      "Oui, si toutes les personnes sont d’accord",
+      "Oui, avec l’autorisation du juge",
+      "Non, la polygamie est interdite",
+      "Seulement pour les étrangers"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Faut-il réduire ses déchets ?",
+    "answers": [
+      "Non, ce n’est pas nécessaire",
+      "Oui, pour protéger l’environnement",
+      "Seulement en ville",
+      "Uniquement si la mairie l’impose"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Jeter une bouteille dans la rue est :",
+    "answers": [
+      "Autorisé",
+      "Un geste écologique",
+      "Interdit et sanctionné",
+      "Accepté si la rue est vide"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Pourquoi les libertés individuelles peuvent-elles être limitées ?",
+    "answers": [
+      "Pour protéger l’ordre public et les droits des autres",
+      "Pour supprimer les opinions différentes",
+      "Pour favoriser certaines personnes",
+      "Sans raison particulière"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Que doit faire une personne en cas d’accident ?",
+    "answers": [
+      "Quitter les lieux",
+      "Appeler les secours et porter assistance",
+      "Publier une photo sur les réseaux sociaux",
+      "Attendre qu’une autre personne intervienne"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Que permet la citoyenneté française ?",
+    "answers": [
+      "De ne pas respecter la loi",
+      "De voter et d’être éligible",
+      "D’éviter les impôts",
+      "De travailler uniquement dans la fonction publique"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Que risque une personne qui ne respecte pas la loi ?",
+    "answers": [
+      "Aucune conséquence",
+      "Une récompense",
+      "Des sanctions pénales ou civiles",
+      "Un simple avertissement sans suite"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Quel est le rôle de la gendarmerie ?",
+    "answers": [
+      "Rendre la justice",
+      "Maintenir l’ordre et assurer la sécurité",
+      "Voter les lois",
+      "Soigner les blessés"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Quel est le rôle de la police ?",
+    "answers": [
+      "Maintenir l’ordre et protéger les personnes",
+      "Voter les lois",
+      "Rédiger la Constitution",
+      "Collecter les impôts"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Qu'est-ce qu'une infraction ?",
+    "answers": [
+      "Un droit fondamental",
+      "Un acte interdit par la loi",
+      "Une aide sociale",
+      "Un devoir civique"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Comment peut-on réduire ses déchets ?",
+    "answers": [
+      "En jetant tout dans la nature",
+      "En brûlant ses déchets",
+      "En triant et recyclant",
+      "En les cachant dans un sac"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Déposer une machine à laver cassée sur le trottoir est :",
+    "answers": [
+      "Autorisé",
+      "Interdit et sanctionné",
+      "Encouragé",
+      "Accepté le week-end"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "En quoi consiste la traite des êtres humains ?",
+    "answers": [
+      "Un échange culturel",
+      "L’exploitation de personnes par la contrainte ou la tromperie",
+      "Un contrat de travail légal",
+      "Une aide humanitaire"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Que doit faire une victime de violences ?",
+    "answers": [
+      "Garder le silence",
+      "Se rendre responsable des faits",
+      "Demander de l’aide et porter plainte",
+      "Quitter le pays"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Droits et devoirs",
+    "question": "Quelle est l'infraction la plus grave ?",
+    "answers": [
+      "La contravention",
+      "Le délit",
+      "Le crime",
+      "L’avertissement"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Droits et devoirs",
     "question": "Au nom de quoi l'État justifie-t-il la restriction des droits ?",
     "answers": [
       "L’intérêt général et l’ordre public",
@@ -3551,5 +3881,336 @@ const QUESTIONS = [
       "Est exclu des activités scolaires"
     ],
     "correct": 0
+  },
+    {
+    "theme": "Vivre dans la société française",
+    "question": "Quel numéro d'urgence permet d'appeler le SAMU ?",
+    "answers": ["15", "17", "18", "112"],
+    "correct": 0
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Quel numéro d'urgence permet d'appeler les pompiers ?",
+    "answers": ["15", "18", "17", "112"],
+    "correct": 1
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Après avoir obtenu le permis de conduire, que faut-il faire pour pouvoir conduire sa voiture ?",
+    "answers": [
+      "Acheter une vignette écologique uniquement",
+      "Souscrire une assurance automobile",
+      "Demander l’autorisation à la mairie",
+      "Passer un autre examen"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "À quelles conditions un mariage est-il reconnu juridiquement ?",
+    "answers": [
+      "S'il est célébré à l'église",
+      "S'il est célébré à la mairie",
+      "S'il est déclaré entre amis",
+      "S'il est annoncé dans un journal"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Quand faut-il déclarer son enfant au service d'état civil de la mairie ?",
+    "answers": [
+      "Dans les 3 jours suivant la naissance",
+      "Dans le mois suivant la naissance",
+      "Avant les 6 mois de l’enfant",
+      "À la première rentrée scolaire"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Le travail non déclaré est :",
+    "answers": [
+      "Autorisé si l’employeur est d’accord",
+      "Légal pour les étudiants",
+      "Interdit par la loi",
+      "Accepté pour les petits emplois"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Que doit faire un employeur pour fixer un salaire ?",
+    "answers": [
+      "Respecter au minimum le SMIC et la convention collective",
+      "Fixer librement sans règle",
+      "Demander l’autorisation du maire",
+      "S’aligner uniquement sur les concurrents"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Qu'est-ce que le SMIC ?",
+    "answers": [
+      "Une aide sociale",
+      "Le salaire minimum légal",
+      "Un impôt obligatoire",
+      "Une prime exceptionnelle"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Quelle est la première démarche à réaliser pour chercher un emploi ?",
+    "answers": [
+      "S’inscrire à France Travail",
+      "Attendre une proposition",
+      "Demander à la mairie",
+      "Créer immédiatement une entreprise"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Quelle est la durée légale du temps de travail par semaine ?",
+    "answers": [
+      "32 heures",
+      "40 heures",
+      "35 heures",
+      "39 heures obligatoires"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Qui est aidé par France Travail ?",
+    "answers": [
+      "Les retraités uniquement",
+      "Les demandeurs d’emploi",
+      "Les touristes",
+      "Les élèves du primaire"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Une personne étrangère en situation régulière peut créer son entreprise :",
+    "answers": [
+      "Jamais",
+      "Seulement après 10 ans",
+      "Oui, sous certaines conditions",
+      "Uniquement avec l’accord du maire"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Une femme peut-elle créer son entreprise ?",
+    "answers": [
+      "Oui",
+      "Non",
+      "Seulement si elle est mariée",
+      "Seulement après 30 ans"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "À partir de quel âge un mineur peut-il travailler ?",
+    "answers": [
+      "14 ans",
+      "15 ans",
+      "16 ans",
+      "18 ans"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Auprès de quel organisme faut-il demander le remboursement des frais de santé ?",
+    "answers": [
+      "La mairie",
+      "La CAF",
+      "L’Assurance Maladie",
+      "La préfecture"
+    ],
+    "correct": 2
+  },
+   {
+    "theme": "Vivre dans la société française",
+    "question": "Qu’est-ce qu’un numéro d’urgence ?",
+    "answers": [
+      "Un numéro pour prendre rendez-vous à la mairie",
+      "Un numéro gratuit pour contacter rapidement les secours",
+      "Un numéro pour payer ses impôts",
+      "Un numéro réservé aux professionnels"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+    "answers": [
+      "Les soins sont réservés aux personnes qui travaillent",
+      "L’accès aux soins dépend du revenu uniquement",
+      "Toute personne a droit à l’accès aux soins",
+      "Les étrangers n’ont pas accès aux soins"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "En cas de problème de santé non urgent, à qui faut-il s’adresser en premier ?",
+    "answers": [
+      "Aux urgences de l’hôpital",
+      "À son médecin traitant",
+      "À la police",
+      "À la mairie"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Quel est le rôle du médecin traitant ?",
+    "answers": [
+      "Délivrer un permis de conduire",
+      "Orienter le patient dans son parcours de soins",
+      "Fixer le montant des impôts",
+      "Décider des allocations familiales"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Dans quelles situations doit-on se rendre aux urgences de l'hôpital ?",
+    "answers": [
+      "Pour un simple renouvellement d’ordonnance",
+      "En cas de situation grave ou urgente",
+      "Pour demander un certificat scolaire",
+      "Pour obtenir un arrêt de travail sans consultation"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Quel est l’objectif des vaccinations obligatoires ?",
+    "answers": [
+      "Protéger uniquement les adultes",
+      "Éviter les contrôles médicaux",
+      "Protéger la population contre certaines maladies",
+      "Remplacer les traitements médicaux"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "À quoi sert la carte Vitale ?",
+    "answers": [
+      "À payer les impôts",
+      "À justifier son identité à l’école",
+      "À faciliter le remboursement des soins",
+      "À voter aux élections"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "À quoi sert une mutuelle santé ?",
+    "answers": [
+      "À remplacer l’Assurance Maladie",
+      "À compléter le remboursement des frais de santé",
+      "À financer les retraites",
+      "À payer les impôts"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Jusqu'à quel âge l'école est-elle obligatoire ?",
+    "answers": [
+      "14 ans",
+      "16 ans",
+      "18 ans",
+      "12 ans"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "L'autorité parentale prévoit l'obligation :",
+    "answers": [
+      "D’inscrire l’enfant à l’école et d’assurer son éducation",
+      "De laisser l’enfant décider seul",
+      "De payer une taxe spéciale",
+      "D’inscrire l’enfant uniquement à des activités sportives"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Pour qui l'école est-elle obligatoire ?",
+    "answers": [
+      "Pour tous les enfants de 3 à 16 ans",
+      "Seulement pour les garçons",
+      "Uniquement pour les citoyens français",
+      "Pour les enfants de plus de 6 ans uniquement"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Quel diplôme obtient-on à la fin du lycée ?",
+    "answers": [
+      "Le brevet",
+      "Le CAP",
+      "Le baccalauréat",
+      "La licence"
+    ],
+    "correct": 2
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Dans quels établissements scolaires vont les élèves après l'école élémentaire ?",
+    "answers": [
+      "À l’université",
+      "Au collège",
+      "Au lycée directement",
+      "En apprentissage obligatoire"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Pour qui l'école est elle obligatoire ?",
+    "answers": [
+      "Pour tous les enfants résidant en France de 3 à 16 ans",
+      "Uniquement pour les enfants français",
+      "Seulement pour les filles",
+      "Pour les enfants dont les parents travaillent"
+    ],
+    "correct": 0
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Un enfant inscrit à l'école :",
+    "answers": [
+      "Peut venir seulement quand il veut",
+      "Doit être présent et assidu",
+      "N’est pas obligé de faire ses devoirs",
+      "Peut quitter l’école sans prévenir"
+    ],
+    "correct": 1
+  },
+  {
+    "theme": "Vivre dans la société française",
+    "question": "Les enfants qui ne parlent pas français :",
+    "answers": [
+      "Ne peuvent pas aller à l’école",
+      "Doivent attendre d’apprendre le français seuls",
+      "Bénéficient d’un accompagnement pour apprendre le français",
+      "Sont orientés automatiquement vers une autre école"
+    ],
+    "correct": 2
   }
 ];
