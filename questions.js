@@ -3882,7 +3882,7 @@ const QUESTIONS = [
     ],
     "correct": 0
   },
-    {
+  {
     "theme": "Vivre dans la société française",
     "question": "Quel numéro d'urgence permet d'appeler le SAMU ?",
     "answers": ["15", "17", "18", "112"],
